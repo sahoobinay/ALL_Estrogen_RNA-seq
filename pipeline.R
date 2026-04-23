@@ -3,17 +3,6 @@
 # Description:
 #   Salmon gene counts → QC → DE → GSEA → TF activity →
 #   Stemness scores → Stemness marker expression vs Veh →
-#   Cell state axis → Integration figures
-#
-# Author: Bikash Sahoo
-# Lab: UVM Larner College of Medicine
-#
-# NOTE ON BATCH CORRECTION:
-#   - DE testing uses raw counts via glmQLFTest with rep in
-#     the design matrix (statistical control, no data modification)
-#   - logcpm_bc is batch-corrected with removeBatchEffect()
-#     and used ONLY for visualization and scoring
-#   - Never use logcpm_bc as input to DE testing
 ############################################################
 
 ## =========================
