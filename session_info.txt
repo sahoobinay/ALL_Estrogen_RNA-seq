@@ -1,0 +1,36 @@
+# session_info.txt
+# R session information for reproducibility
+# Generated from the ERα RNA-seq analysis pipeline
+#
+# To regenerate this file, run in R:
+#   sink("session_info.txt")
+#   sessionInfo()
+#   sink()
+#
+# Key package versions used during development:
+
+R version 4.3.x (2023-xx-xx)
+Platform: x86_64-w64-mingw32/x64 (Windows)
+
+Bioconductor version: 3.18
+
+Key packages:
+  edgeR          >= 3.42.0
+  limma          >= 3.56.0
+  fgsea          >= 1.26.0
+  msigdbr        >= 7.5.1
+  viper          >= 1.34.0
+  dorothea       >= 1.12.0
+  org.Hs.eg.db   >= 3.17.0
+  AnnotationDbi  >= 1.62.0
+  ggplot2        >= 3.4.0
+  tidyverse      >= 2.0.0
+  pheatmap       >= 1.0.12
+  UpSetR         >= 1.4.0
+  ggrepel        >= 0.9.3
+  igraph         >= 1.5.0
+
+# To capture your exact session info, add this at the end of pipeline.R:
+#   sink(file.path(outdir, "session_info.txt"))
+#   print(sessionInfo())
+#   sink()
