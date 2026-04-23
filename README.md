@@ -136,6 +136,3 @@ If you use this pipeline, please cite the relevant tools:
 
 ---
 
-## Contact
-
-Bikash Sahoo — UVM Larner College of Medicine
